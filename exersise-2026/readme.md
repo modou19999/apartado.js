@@ -1,5 +1,3 @@
-# DEMO JS
-
 ## notas
 
 # Estos son signos importatantes
@@ -9,4 +7,3 @@
 // entre prentecis ()
 // || esto es letra O
 // && esto es y pregunntas de examen
-// [...number]
