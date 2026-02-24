@@ -5,9 +5,9 @@
 //CONSTATNTES (aveces se escribbe todo en mayusculas)
 
 //declararlar + inicializar
-const PI = 3.14; 
+const PI = 3.14;
 // no existe modificacion
-PI = 3.15 // da error
+PI = 3.15; // da error
 
 // declararlar una variable se hace entre estas 2 palabras reservadas
 // var (depreacada, no usar)
@@ -31,16 +31,15 @@ userName = 'Jose';
 // PROCESO + ASIGNACION
 const user = {
     name: 'Luis',
-    age: 24
-}
+    age: 24,
+};
 
-console.log(user.age)
+console.log(user.age);
 // se llama mutar el objeto
 user.age = 25;
-console.log(user.age)
-// user = {} 
+console.log(user.age);
+// user = {}
 // esto no se puede reasignar un objeto declarado con const
 // user.job = 'Developer'; DA ERROR
 // delete user.name DA ERROR
-console.log(user)
-
+console.log(user);

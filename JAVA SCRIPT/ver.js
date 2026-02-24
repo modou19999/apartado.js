@@ -23,15 +23,22 @@ const foo = {
 };
 foo.greeting();
 
+// const sort = (arr) => {
+//     for (let i = 1; i < arr.length; i++) {
+//         const previous = arr[i - 1];
+//         const element = arr[i];
+//         if (element < previous) {
+//             //reordena
+//         }
+//     }
+//     return arr;
+// };
+
 const sort = (arr) => {
-    for (let i = 1; i < arr.length; i++) {
+    for (let i = 1; i <= arr.length; i++) {
         const previous = arr[i - 1];
-        const element = arr[i];
+        const element = ar[i];
         if (element < previous) {
-            //reordena
         }
     }
-    return arr;
 };
-
-
